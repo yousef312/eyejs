@@ -1,0 +1,45 @@
+{
+  "name": "eyejs",
+  "version": "1.0.0",
+  "description": "Library that make document manipulation a lot easier",
+  "main": "./src/eye.js",
+  "module": "dist/eye.esm.js",
+  "browser": "dist/eye.umd.min.js",
+  "exports": {
+    "import": "./dist/eye.esm.js",
+    "require": "./dist/eye.cjs.js"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousef312/eyejs.git"
+  },
+  "keywords": [
+    "selector",
+    "elements",
+    "html",
+    "div",
+    "span",
+    "p",
+    "br",
+    "section",
+    "article",
+    "remove",
+    "append"
+  ],
+  "bugs": {
+    "url": "https://github.com/yousef312/eyejs/issues"
+  },
+  "homepage": "https://github.com/yousef312/eyejs#readme",
+  "author": "Yousef Neji",
+  "license": "MIT",
+    "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.5",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.43.0",
+    "jcall": "^1.0.0"
+  }
+}
